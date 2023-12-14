@@ -115,6 +115,9 @@
         padding: 5px 0 8px 0;
         font-size: 15px;
     }
+    .cards .card-details .card-inner-details {
+        width: 75%;
+    }
 }
 
 @media only screen and (max-width:448px) {
@@ -175,6 +178,10 @@
         line-height: 6vh;
         padding: 5px 0 8px 0;
         font-size: 15px;
+    }
+    .cards .card-details .card-inner-details {
+        width: 55%;
+        /* margin-bottom: 50px; */
     }
 
 }
@@ -251,6 +258,10 @@
         line-height: 5vh;
     }
 
+    .cards .card-details .card-inner-details {
+        width: 75%;
+        /* margin-bottom: 50px; */
+    }
     .location {
         display: flex;
         flex-direction: column;
@@ -370,7 +381,7 @@
     }
 
     .cards .card-details .card-inner-details {
-        width: 37%;
+        width: 40%;
         margin-bottom: 50px;
     }
 
