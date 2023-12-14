@@ -170,12 +170,7 @@ ul {
 /* ...cards.... */
 
 
-.cards {
-    text-align: center;
-    margin-bottom: 60px;
-    overflow: hidden;
-   
-}
+
 
 .cards h2 {
     margin: 40px 0;
@@ -184,55 +179,46 @@ ul {
     color: var(--black);
 }
 
-.cards .card-details {
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    margin-bottom: 60px;
-    /* width: 135%; */
-}
 
-.cards .card-details img {
-    height: 35vh;
+.row{
+   
+    align-items:center;
     width: 100%;
+}
+.col{
+    display:flex;
+    justify-content: space-around;
+
+}
+.card{
+
+    
+    align-items:center;
+}
+.card img {
+    height: 35vh;
+    width: 80%;
     border-radius: 10px;
     margin: 9px 0;
 }
 
-.cards .card-details .card-inner-details {
-    background-color: var(--white);
-    border-radius: 10px;
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    transition: all ease 0.3s;
-    cursor: pointer;
-}
-
-.cards .card-inner-details {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-    border: none;
-
-}
-
-.cards .card-details .card-inner-details h3 {
+.card  h5{
     font-size: 20px;
+    text-align: start;
 }
 
-.cards .card-details .card-inner-details span {
+.card  span {
     color: black;
     font-weight: 600;
 }
 
-.cards .card-details p {
-    text-align: start;
-    line-height: 3vh;
-    padding: 5px 0 8px 0;
-    font-size: 13px;
-}
+.card {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border: none;
 
-.cards .card-details .card-inner-details button {
+    width: 70%;
+}
+.card button {
     padding: 8px 10px;
     background-color: var(--red);
     border: none;
@@ -240,11 +226,17 @@ ul {
     border-radius: 5px;
     color: var(--white);
     cursor: pointer;
+    text-align: start;
+} 
+.card  p {
+    line-height: 4vh;
+    text-align: start;
+    padding: 5px 0 8px 0;
+    font-size: 13px;
 }
-
-.cards .card-details .card-inner-details button a {
+.card  button a{
     color: var(--white);
-    text-decoration: none;
+    text-decoration:none;
 }
 
 /* ....location.... */
